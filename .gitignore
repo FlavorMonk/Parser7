@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+logs/
+
+# Cache files
+*.db
+cache/
+*_cache/
+*_cache.db
+
+# Data files
+*.zip
+data/market_data/*.json
+data/signals/*.json
+data/backtest_results*/
+data/pipeline_output_real/filtered/*.json
+enriched_output*/
+real_enriched_output*/
+real_filtered_output*/
+real_integrated_output*/
+real_parsed_output*/
+combined_output/
+batch_enriched_output/
+multi_source_enriched_output*/
+test_enriched_output/
+test_filtered_output/
+test_integrated_output/
+test_output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Large files
+*.parquet
+parquet/
+
+# Temporary files
+.gitignore_dirs/
